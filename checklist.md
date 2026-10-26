@@ -1,0 +1,19 @@
+# SWS submission checklist
+- [x] Four separately owned C modules and shared API header
+- [x] Makefile + README + sample website + small CGI + unittest suite
+- [x] HTTP/1.0 status line and support accepting GET/HEAD HTTP/1.1 requests
+- [x] Core Date, Server, Last-Modified, Content-Type, Content-Length responses for regular files
+- [x] If-Modified-Since for regular files, directory index sorted ignoring dotfiles
+- [x] Basic daemon / fork per accepted connection / sequential debug mode
+- [ ] Correct byte-count request logging, comprehensive malformed request logging
+- [ ] CGI fully conformant with RFC3875
+- [ ] MIME identification using magic(5) contents, not extension lookup
+- [ ] Complete error and redirect behavior; efficient static file streaming
+- [ ] Safe HTML directory index escaping and URI generation
+- [ ] Robust concurrency tests and security tests
+- [ ] NetBSD 11 compilation and execution validated
+- [ ] Linux reference system compilation and execution validated
+- [ ] OmniOS compilation and execution validated
+- [ ] All four member branches/PRs/commits genuinely authored
+- [ ] Final README real member contribution summary and git log
+- [ ] Instructor-required tar archive structure and submission
